@@ -1,0 +1,14 @@
+<p>
+  contact works!
+</p>
+<button (click)="getlist()">click</button>
+<table *ngIf='urwish.length>0'>
+  <tr>
+    <th>userId</th><th>id</th> <th>title</th><th>body</th></tr>
+  <tr *ngFor="let f of urwish">
+    <td>{{f.userId}}</td>
+    <td>{{f.id}}</td>
+    <td>{{f.title}}</td>
+    <td>{{f.body}}</td>
+  </tr>
+</table>
