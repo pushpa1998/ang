@@ -1,0 +1,11 @@
+nav{
+    background-color: rgb(173, 188, 255);
+}
+li{
+    padding:10px;
+}
+.fixed-bottom{
+    background-color:mediumvioletred;
+    width: 100%;
+    height:20px;
+}
