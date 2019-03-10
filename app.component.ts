@@ -1,11 +1,15 @@
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
-})
-export class AppComponent {
-  title = 'angular7';
+  template:` <div>  
+  <h1>{{firstname}}</h1>  
+   <h1>{{lastname}}</h1>  
+  </div> ` 
+})  
 
+export class AppComponent {
+
+firstname: string = "Sachin";  
+lastname:string = "Tendulkar" 
 }
