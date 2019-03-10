@@ -3,13 +3,13 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   template:` <div>  
-  <h1>{{firstname}}</h1>  
-   <h1>{{lastname}}</h1>  
+<h1 [innerHtml]='myname'> 
+  </h1>
   </div> ` 
 })  
 
 export class AppComponent {
 
-firstname: string = "Sachin";  
-lastname:string = "Tendulkar" 
+myname: string = "Sachin";  
+ 
 }
