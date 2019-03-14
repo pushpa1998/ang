@@ -1,0 +1,17 @@
+<h1>component to component</h1>
+<button (click)="getlist()">sub</button>
+<table>
+    <tr>
+     <th>userId</th>
+     <th>id</th>
+     <th>title</th>
+     <th>body</th>
+    </tr>
+    <tr *ngFor="let u of mydata">
+    <td>{{u.userId}}</td>
+    <td>{{u.id}}</td>
+    <td>{{u.title}}</td>
+    <td>{{u.body}}</td>  
+    </tr>
+    </table>
+    
